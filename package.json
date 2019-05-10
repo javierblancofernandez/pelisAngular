@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy" : "ng build --prod --output-path docs --base-href /pelisAngular/"
-
+    "deploy" : "ng build --prod --output-path docs --base-href /pelisAngular/",
+    "postdeploy":"mv docs/index.html docs/404.html"
   },
   "private": true,
   "dependencies": {

@@ -1,5 +1,8 @@
 # AngularMovies
+Proyecto didáctico con Angular 7, Servicios , API-Rest de terceros y  layout con grid y flex.
 
+[DEMO :](https://javierblancofernandez.github.io/pelisAngular/)
+----
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
 ## Development server
