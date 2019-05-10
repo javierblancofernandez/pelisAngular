@@ -1,5 +1,5 @@
 <div *ngIf="!movie">...Loading</div>
-
+<!-- hacemos los if para que pueda cargar la pagina y no nos de error y pueda cargar la movie antes -->
 <div *ngIf="movie" class='movie' [style.background]="'url(https://image.tmdb.org/t/p/w600_and_h900_bestv2' + movie.backdrop_path +')'" >
   <img class='poster'  src= "https://image.tmdb.org/t/p/w300/{{movie.poster_path}}"  />
   
